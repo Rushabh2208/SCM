@@ -6,19 +6,11 @@ Team Initial: BJS
 
 Contact info: rushabh2208@gmail.com, subramaniam.seshadri@outlook.com, parasjagani11@gmail.com
 
-
-Class number: 6236
-
-
-Section: CECS 543-02
-
-Project part: Part 2
-
 Intro:	This is the second part of our SCM (Source Code Management) project. In this project part, we add
 	three new features: check-out, check-in (mostly already done), and labeling.
 	The labeling feature allows the user to add a label (a text string) to a manifest file, in order to make
 	it easier to remember. A manifest file must support up to 4 different labels at the same time. We can
-	presume that the user is nice and always supplies a unique label – so we don't have to check for the
+	presume that the user is nice and always supplies a unique label â€“ so we don't have to check for the
 	label already existing in some other manifest file. A label is supposed to uniquely ID a manifest.
 	The check-out ability lets a user recreate a specific version of the project tree. They do this by
 	selecting a particular manifest file from the repo. The manifest specifies every version of every file
@@ -58,4 +50,5 @@ Files List:
 
 Extra Features: Project stores the labels and corresponding manifest file names in an index.properties file.
 
-Bugs: None detected
+Bugs
+: None detected
